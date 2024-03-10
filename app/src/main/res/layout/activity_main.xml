@@ -4,12 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="10dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/beer_color"
         android:layout_width="match_parent"
         android:layout_height="52dp"
         android:layout_gravity="center"
@@ -17,7 +16,7 @@
         android:entries="@array/beer_colors" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/find_beer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/find_beer" />
